@@ -13,13 +13,13 @@ while (playAgain) {
 
   string numOne;
   bool isNumOneValid = false;
-  int num1 = 0;
+  double num1 = 0;
 
   Console.WriteLine("Please enter the first number");
 
   while (!isNumOneValid) {
     numOne = Console.ReadLine();
-    isNumOneValid = Int32.TryParse(numOne, out num1);
+    isNumOneValid = Double.TryParse(numOne, out num1);
     if (!isNumOneValid) {
       Console.WriteLine("Please enter a valid number");
     }
@@ -27,13 +27,13 @@ while (playAgain) {
 
   string numTwo;
   bool isNumTwoValid = false;
-  int num2 = 0;
+  double num2 = 0;
 
   Console.WriteLine("Please enter the second number");
 
   while (!isNumTwoValid) {
     numTwo = Console.ReadLine();
-    isNumTwoValid = Int32.TryParse(numTwo, out num2);
+    isNumTwoValid = Double.TryParse(numTwo, out num2);
     if (!isNumTwoValid) {
       Console.WriteLine("Please enter a valid number");
     }
