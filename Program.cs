@@ -59,7 +59,7 @@ while (playAgain) {
   } else if ( num2 < num1 ) {
     Console.WriteLine(num2 + " is less than " + num1);
   } else {
-    Console.WriteLine(num2 + " equals " + num1);
+    // Console.WriteLine(num2 + " equals " + num1);
   }
 
   string response = "";
