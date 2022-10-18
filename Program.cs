@@ -9,7 +9,7 @@ bool playAgain = true;
 
 while (playAgain) {
 
-  Console.WriteLine("\nHey friend. We're going to compare some numbers\n");
+  Console.WriteLine("Hey friend. We're going to compare some numbers\n");
 
   string numOne;
   bool isNumOneValid = false;
@@ -72,5 +72,7 @@ while (playAgain) {
   if (response == "no") {
     playAgain = false;
     Console.WriteLine("\nGoodbye!");
+  } else {
+    Console.WriteLine("");
   }
 }
