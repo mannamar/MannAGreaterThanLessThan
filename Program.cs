@@ -64,12 +64,12 @@ while (playAgain) {
 
   string response = "";
 
-  while (response != "yes" && response != "no") {
-    Console.WriteLine("\nDo you want to play again? (Please type \"yes\" or \"no\")");
+  while (response != "yes" && response != "no" && response != "y" && response != "n") {
+    Console.WriteLine("\nDo you want to play again? (Please type \"y\" or \"n\")");
     response = Console.ReadLine().ToLower();
   }
 
-  if (response == "no") {
+  if (response == "no" || response == "n") {
     playAgain = false;
     Console.WriteLine("\nGoodbye!");
   } else {
