@@ -1,3 +1,3 @@
-# AMannGreaterThanLessThan
+# MannAGreaterThanLessThan
 
 Peer reviewed by :
