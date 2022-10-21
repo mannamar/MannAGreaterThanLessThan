@@ -2,6 +2,8 @@
 // 10-17-22
 // Mini Challenge #4 "Greater Than Or Less Than"
 // Ask the user to input two numbers. Then output to the console wether the first is greater than, less than, or equal to the second. Then the same for the second compared to the first
+// Peer reviewed by : Pedro Castaneda - Amar's code was flawless! Validation worked perfectly. I liked the use of && in the if statement.
+// Github link: https://github.com/peedrama/MannAGreaterThanLessThan
 
 Console.Clear();
 
